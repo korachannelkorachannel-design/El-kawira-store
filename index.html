@@ -17,33 +17,38 @@
       color: #333333;
       font-size: 18px;
     }
-   product-container {
-    display: flex;
-    flex-direction: row;
-    gap: 20px; /* adds spacing between products */
-}
-
-product {
-    text-align: center;
-}
-    
-    img {
-      width: 200px;
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .product {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      width: 220px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
       border-radius: 10px;
       box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
     }
-    button {
+    .product button {
       background-color: #FF4500;
       color: white;
       border: none;
-      padding: 15px 30px;
-      font-size: 18px;
+      padding: 10px 20px;
+      font-size: 16px;
       border-radius: 10px;
       cursor: pointer;
       margin-top: 10px;
       transition: background-color 0.3s;
     }
-    button:hover {
+    .product button:hover {
       background-color: #e03e00;
     }
   </style>
@@ -53,44 +58,40 @@ product {
   <p>If you love football, check out <strong>ElKawira Channel ⚽</strong></p>
   <button onclick="window.open('https://youtube.com/@korachannelkorachannel?si=GD390gtcCCKqXQ7C','_blank')">Watch Football Content</button>
 
-  <h2>Our T-Shirts Collection</h2>   
-   <div class="product">    
+  <h2>Our T-Shirts Collection</h2>
+
+  <div class="product-container">
+    <div class="product">
+      <img src="IMADGE.jpg" alt="product1">
+      <button>Shop Now</button>
+    </div>
+    <div class="product">
+      <img src="IMADGE2.jpg" alt="product2">
+      <button>Shop Now</button>
+    </div>
+    <div class="product">
+      <img src="IMADGE3.jpg" alt="product3">
+      <button>Shop Now</button>
+    </div>
+    <div class="product">
+      <img src="imadg2.jpg" alt="product4">
+      <button>Shop Now</button>
+    </div>
+    <div class="product">
+      <img src="imadg 1.jpg" alt="product5">
+      <button>Shop Now</button>
+    </div>
+    <div class="product">
+      <img src="imadg3.jpg" alt="product6">
+      <button>Shop Now</button>
+    </div>
   </div>
-  <div class="product">
-</div>   
 </body>
 </html>
-<div class="sport-shirt">
-  <img src="IMADGE.jpg" alt="product1" class="product-img">
-  <button class="shop-btn">Shop Now</button>
-</div>
-
-<div class="sport t-shirt">
-  <img src="IMADGE2.jpg" alt="product2" class="product-img">
-  <button class="shop-btn">Shop Now</button>
-</div>
-
-<div class="sport t-shirt">
-  <img src="IMADGE3.jpg" alt="product3" class="product-img">
-  <button class="shop-btn">Shop Now</button>
-</div>
-<div class="sport-shirt">
-  <img src="imadg2.jpg" alt="product1" class="product-img">
-  <button class="shop-btn">Shop Now</button>
-</div>
-
-<div class="sport t-shirt">
-  <img src="imadg 1.jpg" alt="product2" class="product-img">
-  <button class="shop-btn">Shop Now</button>
-</div>
-
-<div class="sport t-shirt">
-  <img src="imadg3.jpg" alt="product3" class="product-img">
-  <button class="shop-btn">Shop Now</button>
-</div>        
 
 
      
+
 
 
 
